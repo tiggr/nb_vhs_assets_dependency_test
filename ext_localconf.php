@@ -8,12 +8,12 @@ if (!defined('TYPO3_MODE')) {
 	'Pi1',
 	array(
 		'Dummy' => 'index',
-		
+
 	),
 	// non-cacheable actions
 	array(
-		'Dummy' => '',
-		
+		'Dummy' => 'index',
+
 	)
 );
 
