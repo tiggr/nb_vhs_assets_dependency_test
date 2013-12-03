@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-12-03T17:58:06Z" product-name="nb_vhs_assets_dependency_test">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_nbvhsassetsdependencytest_domain_model_dummy">
+				<source>Dummy</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

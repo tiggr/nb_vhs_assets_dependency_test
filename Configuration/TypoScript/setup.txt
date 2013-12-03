@@ -1,0 +1,39 @@
+plugin.tx_nbvhsassetsdependencytest {
+	view {
+		templateRootPath = {$plugin.tx_nbvhsassetsdependencytest.view.templateRootPath}
+		partialRootPath = {$plugin.tx_nbvhsassetsdependencytest.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_nbvhsassetsdependencytest.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_nbvhsassetsdependencytest.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+}
+
+plugin.tx_nbvhsassetsdependencytest._CSS_DEFAULT_STYLE (
+	textarea.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-nb-vhs-assets-dependency-test table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-nb-vhs-assets-dependency-test table th {
+		font-weight:bold;
+	}
+
+	.tx-nb-vhs-assets-dependency-test table td {
+		vertical-align:top;
+	}
+)

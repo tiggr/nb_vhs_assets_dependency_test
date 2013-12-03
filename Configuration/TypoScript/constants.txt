@@ -1,0 +1,14 @@
+plugin.tx_nbvhsassetsdependencytest {
+	view {
+		# cat=plugin.tx_nbvhsassetsdependencytest/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:nb_vhs_assets_dependency_test/Resources/Private/Templates/
+		# cat=plugin.tx_nbvhsassetsdependencytest/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:nb_vhs_assets_dependency_test/Resources/Private/Partials/
+		# cat=plugin.tx_nbvhsassetsdependencytest/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:nb_vhs_assets_dependency_test/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_nbvhsassetsdependencytest//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}
