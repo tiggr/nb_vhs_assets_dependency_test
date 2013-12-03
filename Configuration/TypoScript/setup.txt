@@ -1,3 +1,9 @@
+plugin.tx_vhs.settings.asset.myLib {
+  name = myLib
+  path = EXT:nb_vhs_assets_dependency_test/Resources/Public/Scripts/myLib.js
+  isDependency = 1
+}
+
 plugin.tx_nbvhsassetsdependencytest {
 	view {
 		templateRootPath = {$plugin.tx_nbvhsassetsdependencytest.view.templateRootPath}
